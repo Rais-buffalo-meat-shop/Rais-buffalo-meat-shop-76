@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rais Buffalo Meat Shop | Fresh Buffalo Meat</title>
+<meta name="description" content="Rais Buffalo Meat Shop — fresh buffalo meat, boneless and with bone.">
+<style>
+:root{--dark:#17120f;--red:#b21f24;--cream:#fff8ef;--gold:#d9a441;--muted:#6d625a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--dark);line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(23,18,15,.95);display:flex;justify-content:space-between;align-items:center;padding:15px 7%;color:#fff}
+.logo{font-size:21px;font-weight:800}.logo span{color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin-left:24px;font-weight:600}
+.hero{min-height:88vh;padding:150px 7% 80px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(23,18,15,.96),rgba(23,18,15,.65)),url('https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=1800&q=85') center/cover;color:#fff}
+.hero-content{max-width:700px}.tag{display:inline-block;background:var(--gold);color:#17120f;padding:7px 14px;border-radius:30px;font-weight:800;margin-bottom:18px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.03;margin-bottom:20px}
+.hero p{font-size:20px;color:#f5eee6;max-width:600px;margin-bottom:30px}
+.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;padding:14px 24px;border-radius:8px;font-weight:800;margin-right:10px}
+.btn.alt{background:#fff;color:var(--dark)}
+section{padding:75px 7%}.title{text-align:center;margin-bottom:42px}.title h2{font-size:38px}.title p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1100px;margin:auto}
+.card{background:#fff;padding:30px;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.08);text-align:center}
+.icon{font-size:42px;margin-bottom:10px}.card h3{margin-bottom:8px}.card p{color:var(--muted)}
+.price{font-size:31px;color:var(--red);font-weight:900;margin:10px 0}
+.price small{font-size:14px;color:var(--muted)}
+.menu{background:#17120f;color:#fff}.menu .title p{color:#cfc5bc}
+table{width:100%;max-width:900px;margin:auto;border-collapse:collapse;background:#241b17;border-radius:14px;overflow:hidden}
+th,td{padding:17px;border-bottom:1px solid #493a32;text-align:left}th{background:var(--red)}td:last-child,th:last-child{text-align:right}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center;max-width:1100px;margin:auto}
+.about img{width:100%;border-radius:18px;min-height:320px;object-fit:cover}.about h2{font-size:38px;margin-bottom:15px}.about p{color:var(--muted);margin-bottom:15px}
+.contact{background:#f0e4d6}.contact-box{max-width:800px;margin:auto;background:#fff;padding:35px;border-radius:18px;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.08)}
+footer{background:#0f0c0a;color:#cfc5bc;text-align:center;padding:28px}
+@media(max-width:750px){nav{padding:14px 5%}nav .links{display:none}.hero{padding:130px 6% 70px}.cards,.about{grid-template-columns:1fr}section{padding:55px 6%}table{font-size:14px}th,td{padding:12px 9px}.menu div[style*='grid-template-columns']{grid-template-columns:1fr!important}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">RAIS <span>BUFFALO MEAT SHOP</span></div>
+  <div class="links"><a href="#home">Home</a><a href="#products">Products</a><a href="#prices">Prices</a><a href="#delivery">Delivery</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-content">
+    <div class="tag">FRESH • QUALITY • HYGIENIC</div>
+    <h1>Fresh Buffalo Meat You Can Trust.</h1>
+    <p>Welcome to Rais Buffalo Meat Shop. Quality buffalo meat with clear pricing, prepared fresh for your family and kitchen.</p>
+    <a class="btn" href="#prices">View Prices</a>
+    <a class="btn alt" href="#contact">Order / Enquire</a>
+  </div>
+</header>
+
+<section id="products">
+  <div class="title"><h2>Our Products</h2><p>Simple choices, clear quality.</p></div>
+  <div class="cards">
+    <div class="card"><div class="icon">🥩</div><h3>Boneless Buffalo Meat</h3><p>Tender, convenient and ready for your favourite dishes.</p></div>
+    <div class="card"><div class="icon">🍖</div><h3>Buffalo Meat With Bone</h3><p>A flavourful option for curries, gravies and slow cooking.</p></div>
+    <div class="card"><div class="icon">🧼</div><h3>Fresh & Clean</h3><p>Prepared with attention to cleanliness and customer satisfaction.</p></div>
+  </div>
+</section>
+
+<section class="menu" id="prices">
+  <div class="title"><h2>Price List</h2><p>Rates shown below are the shop rates provided for this website.</p></div>
+  <table>
+    <tr><th>Item</th><th>Quantity</th><th>Price</th></tr>
+    <tr><td>Boneless Buffalo Meat</td><td>250 grams</td><td>₹150</td></tr>
+    <tr><td>Boneless Buffalo Meat</td><td>500 grams</td><td>₹300</td></tr>
+    <tr><td>Boneless Buffalo Meat</td><td>1 kg</td><td>₹600</td></tr>
+    <tr><td>Buffalo Meat With Bone</td><td>1 kg</td><td>₹460</td></tr>
+    <tr><td>Special Tenderloin</td><td>1 kg</td><td>₹1,250</td></tr>
+  </table>
+  <div style="max-width:900px;margin:28px auto 0;padding:24px;background:#241b17;border-radius:14px">
+    <h3 style="color:#d9a441;margin-bottom:12px">Buffalo Organ Meat</h3>
+    <p style="color:#cfc5bc;margin-bottom:20px">Fresh buffalo organ meat. Rates are shown below.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;color:#fff">
+      <div style="background:#30231e;border-radius:12px;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=600&q=80" alt="Buffalo Liver" style="width:100%;height:150px;object-fit:cover"><div style="padding:14px"><strong>Liver</strong><br><span style="color:#d9a441">₹300/kg</span></div>
+      </div>
+      <div style="background:#30231e;border-radius:12px;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=600&q=80" alt="Kidney" style="width:100%;height:150px;object-fit:cover"><div style="padding:14px"><strong>Kidney</strong><br><span style="color:#d9a441">₹300/kg</span></div>
+      </div>
+      <div style="background:#30231e;border-radius:12px;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?auto=format&fit=crop&w=600&q=80" alt="Heart" style="width:100%;height:150px;object-fit:cover"><div style="padding:14px"><strong>Heart</strong><br><span style="color:#d9a441">₹350/kg</span></div>
+      </div>
+      <div style="background:#30231e;border-radius:12px;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=600&q=80" alt="Brain" style="width:100%;height:150px;object-fit:cover"><div style="padding:14px"><strong>Brain</strong><br><span style="color:#d9a441">₹200/pc</span></div>
+      </div>
+      <div style="background:#30231e;border-radius:12px;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=600&q=80" alt="Tongue" style="width:100%;height:150px;object-fit:cover"><div style="padding:14px"><strong>Tongue</strong><br><span style="color:#d9a441">₹320/kg</span></div>
+      </div>
+      <div style="background:#30231e;border-radius:12px;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=600&q=80" alt="Stomach Tripe" style="width:100%;height:150px;object-fit:cover"><div style="padding:14px"><strong>Stomach / Tripe</strong><br><span style="color:#d9a441">₹320/kg</span></div>
+      </div>
+    </div>
+    <p style="margin-top:20px;color:#cfc5bc">Lungs, intestines and other organs: Contact the shop for availability and today's rate.</p>
+  </div>
+</section>
+
+<section>
+  <div class="about">
+    <img src="https://images.unsplash.com/photo-1588347818036-558601350947?auto=format&fit=crop&w=1000&q=85" alt="Fresh meat shop">
+    <div>
+      <h2>About Rais Buffalo Meat Shop</h2>
+      <p>We focus on fresh buffalo meat, straightforward pricing and dependable service.</p>
+      <p>Whether you need boneless meat or meat with bone, choose the quantity that suits you and contact the shop for availability.</p>
+      <a class="btn" href="#contact">Contact Shop</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="delivery" style="background:#fff8ef;padding:55px 7%;text-align:center">
+  <div style="max-width:900px;margin:auto;background:#fff;padding:35px;border-radius:18px;box-shadow:0 8px 30px rgba(0,0,0,.08)">
+    <div style="font-size:48px">🛵</div>
+    <h2>Home Delivery Available</h2>
+    <p style="color:#6d625a;font-size:18px;margin:10px 0 22px">
+      Delhi NCR में Home Delivery उपलब्ध है।
+    </p>
+    <a class="btn" href="tel:+918750868388">📞 Call: 8750868388</a>
+    <a class="btn" href="https://wa.me/918750868388" target="_blank">💬 WhatsApp Order</a>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-box">
+    <h2>Order / Enquire</h2>
+    <p style="margin:12px 0 24px;color:#6d625a">C-87, Gali No. 15, Madan Pur Khadar, Near Jama Masjid, New Delhi - 76<br><strong>Mobile:</strong> 8750868388</p>
+    <a class="btn" href="tel:+918750868388">Call Now</a>
+    <a class="btn" href="https://wa.me/918750868388" target="_blank">WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <strong>Rais Buffalo Meat Shop</strong><br>
+  Fresh Buffalo Meat • Quality • Service<br><br>
+  © 2026 Rais Buffalo Meat Shop. All rights reserved.
+</footer>
+</body>
+</html>
